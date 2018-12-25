@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700|Material+Icons');
+@import 'spark/scss/spark.scss';
+@import 'layout.scss';
+
+.spark-docs-layout {
+    display: flex;
+    height: 100%;
+}
+
+.spark-docs-container__header {
+    text-align: center;
+}
+
+.spark-docs-details-body {
+    flex: 1;
+}
+
+.spark-docs-sidebar {
+  border-right: 1px solid color(bluish-grey);
+  padding: 8px 0;
+  min-width: 230px;
+
+  .spark-docs-sidebar-item {
+    padding-left: 16px;
+    display: block;
+  }
+
+  .spark-docs-sidebar-item--current {
+    color: color(blue-dense-2);
+  }
+}
