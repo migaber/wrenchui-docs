@@ -9,7 +9,7 @@ there are 16 size, `8, 16, 24, 32, 40, 48, 56, 64, 72, 80, 88, 96, 104, 112, 120
 
 base class is `o-icon` and sizes are defined using the modifier class `o-icon--*x*`
 
-## Usage
+## Demo
 ```html
 <svg class="o-icon o-icon--8x8">
   ...

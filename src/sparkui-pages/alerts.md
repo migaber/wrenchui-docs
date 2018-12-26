@@ -5,39 +5,6 @@ title: "Alerts"
 ---
 # Alerts
 
-## Usage
-This component has the following classes
-* `c-alert` this is the main component class, this class has no padding or margin specs, so
-all spacing properties MUST be added using utilities classes, along with this class you need to
-specify the color of the alert, there are 4 variations `c-alert--info`, `c-alert--success`, `c-alert--warning`
-and `c-alert--error`
-
-* `c-alert__state`, `c-alert__icon` containers for the alert type Icons, it has no variations
-
-* `c-alert__content` container for the alert message, it may have two childs
-  * `c-alert__message` this is required to place the message text into it
-  * `c-alert__action` if you need to attach an action for your alert, place it inside this class
-      * `c-alert__action-button` this is a custom style for the alert button, you need to add `o-link`
-      to remove the pre-styled button look of this class     
-
-```html
-<div class="c-alert c-alert--info u-bottom-margin--2x">
-  <div class="c-alert__state">
-    <svg class="c-alert__icon"><!-- SVG icon goes here --></svg>
-  </div>
-
-  <div class="c-alert__content">
-    <div class="c-alert__message">
-      Alert message goes here
-    </div>
-
-    <div class="c-alert__action">
-      <a class="c-alert__action-button o-link o-link--underline">Action</a>
-    </div>
-  </div>
-</div>
-```
-
 ## Demo
 <div class="c-alert c-alert--same-bg c-alert--info u-bottom-margin--2x">
   <div class="c-alert__state">
@@ -139,3 +106,36 @@ and `c-alert--error`
     </div>
   </div>
 </div>
+
+```html
+<div class="c-alert c-alert--info u-bottom-margin--2x">
+  <div class="c-alert__state">
+    <svg class="c-alert__icon"><!-- SVG icon goes here --></svg>
+  </div>
+
+  <div class="c-alert__content">
+    <div class="c-alert__message">
+      Alert message goes here
+    </div>
+
+    <div class="c-alert__action">
+      <a class="c-alert__action-button o-link o-link--underline">Action</a>
+    </div>
+  </div>
+</div>
+```
+
+## Usage
+This component has the following classes
+* `c-alert` this is the main component class, this class has no padding or margin specs, so
+all spacing properties MUST be added using utilities classes, along with this class you need to
+specify the color of the alert, there are 4 variations `c-alert--info`, `c-alert--success`, `c-alert--warning`
+and `c-alert--error`
+
+* `c-alert__state`, `c-alert__icon` containers for the alert type Icons, it has no variations
+
+* `c-alert__content` container for the alert message, it may have two childs
+  * `c-alert__message` this is required to place the message text into it
+  * `c-alert__action` if you need to attach an action for your alert, place it inside this class
+      * `c-alert__action-button` this is a custom style for the alert button, you need to add `o-link`
+      to remove the pre-styled button look of this class     

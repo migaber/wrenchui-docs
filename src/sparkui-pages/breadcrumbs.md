@@ -6,20 +6,6 @@ title: "Breadcrumbs"
 # Breadcrumbs
 enables users to quickly see their location within a path of navigation and move up to a parent level.
 
-## Usage
-```html
-<ol class="c-breadcrumbs">
-  <li class="c-breadcrumbs__crumb">
-    <a class="c-breadcrumbs__crumb-link">
-      <svg ... ></svg> Home
-    </a>
-  </li>
-  <li class="c-breadcrumbs__crumb"><a class="c-breadcrumbs__crumb-link">Cars</a></li>
-  <li class="c-breadcrumbs__crumb"><a class="c-breadcrumbs__crumb-link">Electric</a></li>
-  <li class="c-breadcrumbs__crumb"><a class="c-breadcrumbs__crumb-link">Tesla</a></li>
-  <li class="c-breadcrumbs__crumb u-font--semibold">P100d</li>
-</ol>
-```
 ## Demo
 <ol class="c-breadcrumbs">
   <li class="c-breadcrumbs__crumb">
@@ -72,3 +58,17 @@ enables users to quickly see their location within a path of navigation and move
 
   <li class="c-breadcrumbs__crumb u-font--semibold">23</li>
 </ol>
+
+```html
+<ol class="c-breadcrumbs">
+  <li class="c-breadcrumbs__crumb">
+    <a class="c-breadcrumbs__crumb-link">
+      <svg ... ></svg> Home
+    </a>
+  </li>
+  <li class="c-breadcrumbs__crumb"><a class="c-breadcrumbs__crumb-link">Cars</a></li>
+  <li class="c-breadcrumbs__crumb"><a class="c-breadcrumbs__crumb-link">Electric</a></li>
+  <li class="c-breadcrumbs__crumb"><a class="c-breadcrumbs__crumb-link">Tesla</a></li>
+  <li class="c-breadcrumbs__crumb u-font--semibold">P100d</li>
+</ol>
+```

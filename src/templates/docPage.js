@@ -8,7 +8,7 @@ const docPageTemplate = ({ data }) => {
 
   return (
     <Layout>
-      <div className="spark-docs-details-body u-window-padding--1x"
+      <div className="spark-docs-details-body u-window-padding--2x"
         dangerouslySetInnerHTML = {{__html: html}}
       />
     </Layout>
@@ -24,7 +24,6 @@ export const query = graphql`
       }
     }
   }
-
 `
 
 export default docPageTemplate

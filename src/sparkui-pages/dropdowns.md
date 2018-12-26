@@ -5,7 +5,7 @@ title: "Dropdowns"
 ---
 # Dropdowns Demo
 
-## Usage
+## Demo
 ```html
 <div class="c-dropdown u-bottom-margin--1x">
   <div class="c-dropdown-toggle c-dropdown-toggle--large">
@@ -22,7 +22,7 @@ title: "Dropdowns"
 </div>
 ```
 
-## Sizes
+### Sizes
 We have 3 sizes `c-dropdown-toggle--large`, `c-dropdown-toggle--medium` and `c-dropdown-toggle--small`
 
 <div class="u-display-flex u-justify-content--around">
@@ -79,7 +79,7 @@ We have 3 sizes `c-dropdown-toggle--large`, `c-dropdown-toggle--medium` and `c-d
 </div>
 ```
 
-## Ghost
+### Ghost
 
 <div class="u-display-flex u-justify-content--around">
   <div class="c-dropdown u-bottom-margin--1x">
@@ -112,7 +112,7 @@ We have 3 sizes `c-dropdown-toggle--large`, `c-dropdown-toggle--medium` and `c-d
 </div>
 ```
 
-### Ghost Disabled
+#### Ghost Disabled
 
 <div class="u-display-flex u-justify-content--around">
   <div class="c-dropdown u-bottom-margin--1x">
@@ -143,9 +143,9 @@ We have 3 sizes `c-dropdown-toggle--large`, `c-dropdown-toggle--medium` and `c-d
 </div>
 ```
 
-## Open State
+### Open State
 
-<div class="u-display-flex u-justify-content--around">
+<div class="u-display-flex u-justify-content--around u-center-block">
   <div class="c-dropdown u-bottom-margin--1x">
     <div class="c-dropdown-toggle c-dropdown-toggle--large">
       large height dropdown

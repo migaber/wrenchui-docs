@@ -6,7 +6,7 @@ title: "Buttons"
 
 # Buttons
 
-## Usage
+## Demo
 Buttons classes can be applied to buttons, anchors and form inputs
 <div>
     <button type="button" class="c-button c-button--info">Button</button>
