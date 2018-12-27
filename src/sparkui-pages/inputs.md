@@ -220,7 +220,6 @@ title: "Inputs"
     id="111"
     class="c-choice__field"
     type="checkbox">
-
   <label
     class="c-choice__label"
     for="111">
@@ -233,7 +232,6 @@ title: "Inputs"
     id="11i"
     class="c-choice__field intermediate"
     type="checkbox">
-
   <label
     class="c-choice__label"
     for="11i">
@@ -246,7 +244,6 @@ title: "Inputs"
   id="11"
   class="c-choice__field"
   type="radio">
-
   <label
   class="c-choice__label"
   for="11">
@@ -261,7 +258,6 @@ title: "Inputs"
     id="1114"
     class="c-choice__field"
     type="checkbox">
-
   <label
     class="c-choice__label"
     for="1114">
@@ -273,7 +269,6 @@ title: "Inputs"
     id="112"
     class="c-choice__field"
     type="radio">
-
   <label
     class="c-choice__label"
     for="112">
@@ -288,7 +283,6 @@ title: "Inputs"
     class="c-choice__field"
     type="checkbox"
     disabled>
-
   <label
     class="c-choice__label"
     for="111r">
@@ -302,7 +296,6 @@ title: "Inputs"
     class="c-choice__field"
     type="radio"
     disabled>
-
   <label
     class="c-choice__label"
     for="11q">
@@ -316,7 +309,6 @@ title: "Inputs"
     class="c-choice__field"
     type="checkbox"
     disabled>
-
   <label
     class="c-choice__label"
     for="111rw">
@@ -329,7 +321,6 @@ title: "Inputs"
     class="c-choice__field"
     type="radio"
     disabled>
-
   <label
     class="c-choice__label"
     for="11qw">
