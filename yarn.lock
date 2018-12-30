@@ -10322,9 +10322,9 @@ space-separated-tokens@^1.0.0:
   dependencies:
     trim "0.0.1"
 
-"spark@git+https://c1464b2293568386903a2173a2861a5e3d0fb6ea:x-oauth-basic@github.com/Instabug/sparkui.git":
+"spark@git+ssh://git@github.com:Instabug/sparkui.git":
   version "1.0.1"
-  resolved "git+https://c1464b2293568386903a2173a2861a5e3d0fb6ea:x-oauth-basic@github.com/Instabug/sparkui.git#f4257df5434616e20c605638b560a3d788103831"
+  resolved "git+ssh://git@github.com:Instabug/sparkui.git#f4257df5434616e20c605638b560a3d788103831"
   dependencies:
     sassdoc "^2.5.0"
 
