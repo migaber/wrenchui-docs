@@ -18,7 +18,7 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
-    "spark": "https://github.com/Instabug/sparkui.git"
+    "spark": "git+https://c1464b2293568386903a2173a2861a5e3d0fb6ea:x-oauth-basic@github.com/Instabug/sparkui.git"
   },
   "keywords": [
     "gatsby"
