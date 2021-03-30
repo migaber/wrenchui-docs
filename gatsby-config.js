@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'SparkUI',
+    title: 'Spark UI design system',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
